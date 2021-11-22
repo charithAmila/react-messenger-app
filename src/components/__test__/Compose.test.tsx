@@ -6,7 +6,7 @@ const submitFunction = jest.fn();
 
 describe("Compose component", () => {
   test("Send message", () => {
-    const text = "Hello Sir";
+    const text = "Hello";
     render(<Compose onSubmitMessage={submitFunction} />);
     fireEvent.change(screen.getByRole("textbox"), {
       target: { value: text },

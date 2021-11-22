@@ -36,7 +36,7 @@ describe("MessageList component", () => {
 
   test("My messages should be placed on the right side", () => {
     const data = initialList[0];
-    const text = "Hello Sir, How are you today";
+    const text = "Hello, How are you today";
     data.messages.push({
       text,
       userId: AUTH_USER_ID,
